@@ -38,9 +38,10 @@ This plugin is lightweight, easy to use, and comes with an admin settings page w
 ---
 
 ## ⚙️ Installation
-1. Upload the `spam-defender-email-blocker` directory to the `/wp-content/plugins/` directory.  
-2. Activate the plugin through the **Plugins** menu in WordPress.  
-3. Navigate to **Dashboard > Settings > Block Email** and configure your blocked emails/domains.  
+1. Upload the `spam-defender-email-blocker` directory to the `/wp-content/plugins/` directory.
+2. Alternatively, download the repository as a ZIP file, then go to Dashboard > Plugins > Add Plugin > Upload Plugin > install Now > and Activate Plugin.
+3. Activate the plugin through the **Plugins** menu in WordPress.  
+4. Navigate to **Dashboard > Settings > Block Email** and configure your blocked emails/domains.  
 
 ---
 
