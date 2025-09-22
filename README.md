@@ -6,11 +6,11 @@ Block specific email addresses from using your WordPress site. Stop fake orders,
 
 ## 📌 Plugin Information
 - **Contributors:** shagor447  
-- **Tags:** email, block, registration, login, comments, woocommerce, spam, security  
+- **Tags:** email, block, registration, comments, woocommerce  
 - **Requires at least:** WordPress 4.8  
 - **Tested up to:** WordPress 6.8  
-- **Requires PHP:** 5.6  
-- **Stable tag:** 1.0.1 
+- **Requires PHP:** 7.0 
+- **Stable tag:** 1.0.2 
 - **License:** [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)  
 
 ---
@@ -77,7 +77,15 @@ Yes ✅ all email data is securely handled.
 - Improved settings form design (inline input + button)  
 - Added serial numbers in blocked email list  
 - Added **search box with form submit**  
-- Added **pagination (20 per page)** 
+- Added **pagination (20 per page)**
+
+### 1.0.2
+- Added nonce **verification** for admin actions (block / unblock email). 
+- Inserted **nonce fields** in admin forms to protect against CSRF. 
+- Used `wp_unslash()` before sanitizing input from `$_POST` and `$_GET`.
+- Escaped output properly using `esc_html()`, `wp_kses_post()`, and `esc_html__()`.
+- Sanitized checkout email field **(billing_email)** with **wp_unslash()** + **sanitize_email()**.
+- Added `// phpcs:ignore` to prevent false-positive warnings for nonce checks (WooCommerce handles its own security).
 
 ---
 
