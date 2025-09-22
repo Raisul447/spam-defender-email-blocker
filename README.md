@@ -93,7 +93,7 @@ Yes ✅ all email data is securely handled.
 Recommended update — introduces better UI and management features (search, pagination, settings link).
 
 ## ⚖️ License & Copyright
-- Copyright © **Raisul Islam** 
-- Contact: debug@shagor.dev 
+- Copyright © **Raisul Islam Shagor** 
+- Contact: deploy@shagor.dev 
 - Licensed under the **GPLv2 or later**  
 - ✅ This plugin is **free to use, modify, and distribute** under the license terms.
