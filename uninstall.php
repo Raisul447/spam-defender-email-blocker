@@ -2,5 +2,6 @@
 if (!defined('WP_UNINSTALL_PLUGIN')) {
     exit;
 }
-delete_option('wp_email_blocker_list');
+// Delete the option used by the plugin
+delete_option('sdef_email_blocker_list');
 ?>
