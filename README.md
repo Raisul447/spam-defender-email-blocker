@@ -94,6 +94,7 @@ Recommended update — introduces better UI and management features (search, pag
 
 ## ⚖️ License & Copyright
 - Copyright © **Raisul Islam Shagor** 
-- Contact: deploy@shagor.dev 
+- Contact: deploy@raisul.dev
+- Website: https://raisul.dev/
 - Licensed under the **GPLv2 or later**  
 - ✅ This plugin is **free to use, modify, and distribute** under the license terms.
