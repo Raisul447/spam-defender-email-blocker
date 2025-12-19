@@ -3,12 +3,12 @@
 Plugin Name: Spam Defender - Email Blocker
 Plugin URI: https://raisul.dev/projects/spam-defender-email-blocker-wordpress-plugin
 Description: Block specific email addresses from registration, login, comments, reviews, and WooCommerce checkout to reduce spam, fake orders, and unwanted activity.
-Version: 1.0.2
+Version: 1.0.1
 Author: Raisul Islam Shagor
 Author URI: https://raisul.dev
-Requires at least: 4.8
-Tested up to: 6.8
-Requires PHP: 7.0
+Requires at least: 6.0
+Tested up to: 6.9
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Contributors: shagor447
