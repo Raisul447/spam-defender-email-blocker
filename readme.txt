@@ -1,10 +1,10 @@
 === Spam Defender - Email Blocker ===
 Contributors: shagor447
 Tags: email, block, registration, comments, woocommerce
-Requires at least: 4.8
-Tested up to: 6.8
-Requires PHP: 7.0
-Stable tag: 1.0.2
+Requires at least: 6.0
+Tested up to: 6.9
+Requires PHP: 7.4
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,13 +57,13 @@ Yes, all emails data are secured.
 * Block email addresses from registration, login, comments, and WooCommerce checkout.
 
 = 1.0.1 =
+* Tested with the latest WordPress release.
+* Fixed minor bugs.
 * Added Settings link on plugin page.
 * Improved settings form design (inline input + button).
 * Added serial numbers in blocked email list.
 * Added search box with form submit.
 * Added pagination (20 per page).
-
-= 1.0.2 =
 * Added nonce verification for admin actions (block / unblock email).
 * Inserted nonce fields in admin forms to protect against CSRF.
 * Used wp_unslash() before sanitizing input from $_POST and $_GET.
@@ -72,9 +72,4 @@ Yes, all emails data are secured.
 * Added // phpcs:ignore to prevent false-positive warnings for nonce checks (WooCommerce handles its own security).
 
 == Upgrade Notice ==
-
-= 1.0.0 =
-Initial release.
-
-= 1.0.2 =
-Recommended update — introduces better UI and management features (search, pagination, settings link).
+Version 1.0.1 has been released as a stable version.
