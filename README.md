@@ -1,5 +1,5 @@
 # 🚫 Spam Defender - Email Blocker
-![Spam Defender - Email Blocker logo](assets/icon-128x128.png)
+![Spam Defender - Email Blocker logo](assets/banner-772x250.png)
 ---
 Block specific email addresses from using your WordPress site. Stop fake orders, spam registrations, and unwanted comments with this lightweight and secure plugin.
 ---
@@ -8,9 +8,9 @@ Block specific email addresses from using your WordPress site. Stop fake orders,
 - **Contributors:** shagor447  
 - **Tags:** email, block, registration, comments, woocommerce  
 - **Requires at least:** WordPress 6.0  
-- **Tested up to:** WordPress 6.9  
+- **Tested up to:** WordPress 7.0  
 - **Requires PHP:** 7.4 
-- **Stable tag:** 1.0.1 
+- **Stable tag:** 1.0.4 
 - **License:** [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)  
 
 ---
@@ -60,13 +60,19 @@ Yes ✅ all email data is securely handled.
 
 ## 🖼️ Screenshots
 1. Admin settings page to manage blocked emails. ![Admin settings page to manage blocked emails](assets/screenshot-1.png)   
-2. Blocked email options. ![Blocked email options ](assets/screenshot-2.png)
-3. Unblocked email options. ![Unblocked email options ](assets/screenshot-3.png)
-4. Search functionality. ![Search functionality  ](assets/screenshot-4.png)
+2. Unblocked email, and Search functionality options. ![Unblocked email, and Search functionality options](assets/screenshot-2.png)
+3. Checkout blocked email. ![Checkout blocked email](assets/screenshot-3.png)
+4. Review blocked email. ![Review blocked email](assets/screenshot-4.png)
 
 ---
 
 ## 📝 Changelog
+
+### 1.0.4
+- Redesigned the admin settings page, and responsive security dashboard.
+- Added bulk email blocking support (allows blocking multiple emails separated by commas, spaces, or newlines).
+- Added responsive UI layouts, Google Font integration, and interactive toast alerts.
+- Fully tested for compatibility with the latest WordPress and WooCommerce releases.
 
 ### 1.0.0
 - Initial release.
@@ -90,7 +96,8 @@ Yes ✅ all email data is securely handled.
 ---
 
 ## 📢 Update Notice
-Version 1.0.1 has been released as a stable version.
+= 1.0.4 =
+Version 1.0.4 has been released as a stable version, featuring a redesigned premium dashboard, bulk block operations, and compatibility updates.
 
 ## ⚖️ License & Copyright
 - Copyright © **Raisul Islam Shagor** 
