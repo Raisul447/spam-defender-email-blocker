@@ -2,9 +2,10 @@
 Contributors: shagor447
 Tags: email, block, registration, comments, woocommerce
 Requires at least: 6.0
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.4
+WC tested up to: 8.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,30 +47,31 @@ Yes, all emails data are secured.
 
 == Screenshots ==
 1. Admin settings page to manage blocked emails.
-2. Blocked email options.
-3. Unblocked email options.
-4. Search functionality.
+2. Unblocked email, and Search functionality options.
+3. Checkout blocked email.
+4. Review blocked email.
 
 == Changelog ==
 
-= 1.0.0 =
-* Initial release.
-* Block email addresses from registration, login, comments, and WooCommerce checkout.
+= 1.0.4 =
+* Redesigned the admin settings page, and responsive security dashboard.
+* Added bulk email blocking support (allows blocking multiple emails separated by commas, spaces, or newlines).
+* Added responsive UI layouts, Google Font integration, and interactive toast alerts.
+* Fully tested for compatibility with the latest WordPress and WooCommerce releases.
 
 = 1.0.1 =
 * Tested with the latest WordPress release.
 * Fixed minor bugs.
+
+= 1.0.0 =
+* Initial release.
 * Added Settings link on plugin page.
 * Improved settings form design (inline input + button).
 * Added serial numbers in blocked email list.
 * Added search box with form submit.
 * Added pagination (20 per page).
-* Added nonce verification for admin actions (block / unblock email).
-* Inserted nonce fields in admin forms to protect against CSRF.
-* Used wp_unslash() before sanitizing input from $_POST and $_GET.
-* Escaped output properly using esc_html(), wp_kses_post(), and esc_html__().
-* Sanitized checkout email field (billing_email) with wp_unslash() + sanitize_email().
-* Added // phpcs:ignore to prevent false-positive warnings for nonce checks (WooCommerce handles its own security).
+* Block email addresses from registration, login, comments, and WooCommerce checkout.
 
-== Upgrade Notice ==
-Version 1.0.1 has been released as a stable version.
+== Update Notice ==
+= 1.0.4 =
+Version 1.0.4 has been released as a stable version, featuring a redesigned premium dashboard, bulk block operations, and compatibility updates.
